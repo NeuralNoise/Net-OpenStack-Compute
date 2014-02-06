@@ -1,0 +1,31 @@
+Source: libnet-openstack-compute-perl
+Section: perl
+Priority: optional
+Maintainer: Rubén Durán <rduran@zentyal.com>
+Build-Depends: debhelper (>= 9.20120312)
+Build-Depends-Indep: libapp-rad-perl,
+# libapp-rad-plugin-morehelp-perl,
+ libhttp-message-perl,
+ libjson-perl,
+ libmoose-perl,
+ libtest-most-perl,
+ libwww-perl,
+ perl
+Standards-Version: 3.9.4
+Homepage: https://metacpan.org/release/Net-OpenStack-Compute
+
+Package: libnet-openstack-compute-perl
+Architecture: all
+Depends: ${misc:Depends}, ${perl:Depends},
+ libapp-rad-perl,
+# libapp-rad-plugin-morehelp-perl,
+ libhttp-message-perl,
+ libjson-perl,
+ libmoose-perl,
+ libtest-most-perl,
+ libwww-perl
+Description: (no short description found)
+ This class is an interface to the OpenStack Compute API. Also see the
+ oscompute command line tool.
+ .
+ This description was automagically extracted from the module by dh-make-perl.

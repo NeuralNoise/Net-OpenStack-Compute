@@ -1,0 +1,2 @@
+version=3
+https://metacpan.org/release/Net-OpenStack-Compute   .*/Net-OpenStack-Compute-v?(\d[\d.-]*)\.(?:tar(?:\.gz|\.bz2)?|tgz|zip)$
